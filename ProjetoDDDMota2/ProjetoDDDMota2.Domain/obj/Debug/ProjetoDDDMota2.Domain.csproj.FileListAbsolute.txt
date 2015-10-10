@@ -1,0 +1,5 @@
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Domain\bin\Debug\ProjetoDDDMota2.Domain.dll.config
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Domain\bin\Debug\ProjetoDDDMota2.Domain.dll
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Domain\bin\Debug\ProjetoDDDMota2.Domain.pdb
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Domain\obj\Debug\ProjetoDDDMota2.Domain.dll
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Domain\obj\Debug\ProjetoDDDMota2.Domain.pdb

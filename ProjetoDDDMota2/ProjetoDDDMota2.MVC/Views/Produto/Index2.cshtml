@@ -1,0 +1,68 @@
+﻿@model IEnumerable<ProjetoDDDMota2.MVC.ViewModels.ProdutoViewModel>
+
+@{
+    ViewBag.Title = "Index2";
+}
+
+<h2>Index2</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<p>
+    @using (Html.BeginForm("Index2", "Produto", FormMethod.Get))
+    {
+        <text>Buscar Por Nome:</text>@Html.DropDownList("pesquisa", new SelectList(ViewBag.Pesquisa), String.Empty)
+        <input type="submit" value="Buscar" />
+    }
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Valor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Disponivel)
+        </th>
+        <th>
+            @*@Html.ActionLink("Cliente", "Index", new { ordem = ViewBag.Nome })*@
+            @Html.DisplayName("Cliente")
+        </th>
+        <th>
+            @*@Html.ActionLink("Data de Cadastro", "Index", new { ordem = ViewBag.Data })*@
+            @Html.DisplayName("Data de Cadastro")
+        </th>
+        <th>Ações</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disponivel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cliente.DataCadastro)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ProdutoId }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ProdutoId }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ProdutoId })
+            </td>
+        </tr>
+    }
+
+</table>

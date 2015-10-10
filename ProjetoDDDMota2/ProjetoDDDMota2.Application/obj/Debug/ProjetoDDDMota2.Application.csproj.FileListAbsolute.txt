@@ -1,0 +1,7 @@
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\bin\Debug\ProjetoDDDMota2.Application.dll
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\bin\Debug\ProjetoDDDMota2.Application.pdb
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\bin\Debug\ProjetoDDDMota2.Domain.dll
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\bin\Debug\ProjetoDDDMota2.Domain.pdb
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\obj\Debug\ProjetoDDDMota2.Application.csprojResolveAssemblyReference.cache
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\obj\Debug\ProjetoDDDMota2.Application.dll
+C:\Users\Jean Mota\Documents\Visual Studio 2015\Projects\ProjetoDDDMota2\ProjetoDDDMota2.Application\obj\Debug\ProjetoDDDMota2.Application.pdb

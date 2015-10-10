@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = null;
+}
+@Styles.Render("~/Content/css")
+@Scripts.Render("~/bundles/modernizr")
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+
+
+<div align="center">
+
+<img src=" ~/img/logoMotaIntra.jpg" alt="Empresa Mota"/>
+
+        @using (Html.BeginForm(FormMethod.Post))
+        {
+            <span style="font-family:Arial, Helvetica, sans-serif;">
+              <h2>Tela de Login</h2>
+            </span>
+            if (ViewBag.Mensagem != null)
+            {
+                <span style="color:red;">
+                    @ViewBag.Mensagem
+                </span>
+            }
+            <p>
+                <input type="text" name="usuario" id="usuario" placeholder="Usuário"/><br />
+                <input type="password" name="senha" id="senha" placeholder="Senha"/><br />
+                <input type="submit" value="Acessar" />
+            </p>
+
+        }
+    
+</div>

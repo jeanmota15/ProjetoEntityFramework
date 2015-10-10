@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ProjetoDDDMota2.MVC.ViewModels.ClienteViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Data de Cadastro")
+        </th>
+        <th>
+            @Html.DisplayName("Total")
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Total)
+            </td>
+        </tr>
+    }
+
+</table>
